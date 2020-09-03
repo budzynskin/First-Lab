@@ -1,1 +1,16 @@
- 
+# This program says hello and sasks for my name.
+print("Hello World!")
+print('What is your name?')
+myName = input()
+print ('It is good to meet you, ' + myName)
+print('Are you a Freshman, Sophomore, Junior, or Senior in college?')
+yoc = input()
+print('Well ' + myName, 'I hope your ' + yoc) 
+print('year goes well.')
+print('What is your major, ' + myName )
+maj = input()
+print('I hope you enjoy learning about ' + maj + myName)
+print('Before I leave, I have one last question: What is your favorite color?')
+col = input()
+print('That is my favorite color too!')
+print('That is all I have to say. I hope you have a good day with your classes ' + myName)
